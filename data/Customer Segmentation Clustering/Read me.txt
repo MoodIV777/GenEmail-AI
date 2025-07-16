@@ -1,0 +1,16 @@
+About Dataset
+Customer Personality Analysis involves a thorough examination of a company's optimal customer profiles. This analysis facilitates a deeper understanding of customers, enabling businesses to tailor products to meet the distinct needs, behaviors, and concerns of various customer types.
+
+By conducting a Customer Personality Analysis, businesses can refine their products based on the preferences of specific customer segments. Rather than allocating resources to market a new product to the entire customer database, companies can identify the segments most likely to be interested in the product. Subsequently, targeted marketing efforts can be directed toward those particular segments, optimizing resource utilization and increasing the likelihood of successful product adoption.
+
+Details of Features are as below:
+
+Id: Unique identifier for each individual in the dataset.
+Gender: Gender of the customer
+Age: The birth year of the individual. ——> Age
+KidAge: Average age of kids
+Education: The highest level of education attained by the individual.
+Marital_Status: The marital status of the individual.
+Familysize: Number of family members for the customer (including the customer)
+Income: The annual income of the individual.
+Recency: The number of days since the last purchase or interaction.
