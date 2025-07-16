@@ -5,51 +5,6 @@
 
 该项目会基于客户画像和用户类型（Segmentation）自动为每一位用户生成高性能个性化邮件文案，训练方案使用 LoRA（Low-Rank Adaptation） 对 Qwen3-8B 分类微调，模型推理支持注入强化 prompt+内联适配体，构建更加针对性的文案建议。
 
-
-📁 项目目录结构（供参考）
-<BASH>
-Email-LLM-Agent/
-│
-├── data/
-│   ├── train_emails.jsonl            # 已生成的原始训练数据（input + output + segment）
-│   ├── Customer Segmentation Classification            # 人物画像数据（含 ID, Age, KidAge, Profession ...）
-│   └── Customer Segmentation Clustering
-│
-├── adapters/
-│   ├── Dormant/                     # per-segment 的 LoRA weights
-│   ├── HighValue_Active/
-│   ├── Parent_Active/
-│   └── ...
-│
-├── README.md                        # 当前文件
-└── requirements.txt                 # 所需库清单
-
-📊 数据集结构说明
-profiles.csv: 来自 customer data 的人物特征
-Field	Description
-ID：唯一特征
-Gender：性别
-Marital_Status：婚姻状况
-Age：年龄
-KidAge：最小最大或中位年龄
-Education：教育经历/学位
-Profession：职业
-Work_Experience：工作年数
-FamilySize：家庭成员的数量
-Income：个人的年收入
-Level：客户内部评级
-+输出	
-enhanced_emails.jsonl
-<JSON>
-{
-  "input": "客户档案信息...",
-  "output": "完整的邮件推荐文案...",
-  "segment": "Parent_Active"
-}
-
----
-
-
 ---
 
 ## 🧠 核心技术栈
