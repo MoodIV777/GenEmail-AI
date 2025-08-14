@@ -25,10 +25,10 @@
 Email-LLM-Agent/
 │
 ├── PRD/
-│   ├── train_emails.jsonl            # 已生成的原始训练数据（input + output + segment）
-│   ├── Customer Segmentation Classification            # 人物画像数据（含 ID, Age, KidAge, Profession ...）
-│   ├── Customer Segmentation Clustering
-│   └── Customer Segmentation Clustering
+│   ├── GenEmail AI - 个性化邮件生成模型 PoC (v1.0).md
+│   ├── GenEmail AI - 用户分层与个性化策略模块 (v1.1).md
+│   ├── GenEmail AI - 适配器训练与聚类算法优化 (v1.2).md
+│   ├── GenEmail-AI_Agent-Dashboard_Desktop_WIP_20250812_AN.fig.png
 |
 ├── data/
 │   ├── train_emails.jsonl            # 已生成的原始训练数据（input + output + segment）
