@@ -24,6 +24,12 @@
 ```bash
 Email-LLM-Agent/
 │
+├── PRD/
+│   ├── train_emails.jsonl            # 已生成的原始训练数据（input + output + segment）
+│   ├── Customer Segmentation Classification            # 人物画像数据（含 ID, Age, KidAge, Profession ...）
+│   ├── Customer Segmentation Clustering
+│   └── Customer Segmentation Clustering
+|
 ├── data/
 │   ├── train_emails.jsonl            # 已生成的原始训练数据（input + output + segment）
 │   ├── Customer Segmentation Classification            # 人物画像数据（含 ID, Age, KidAge, Profession ...）
