@@ -1,9 +1,9 @@
-# Email-agent
+# GenEmail-AI
 
 📨 Personalized Email Agent with LoRA-finetuned Qwen3-8B
 ·生成一封精准且风格定制的 Email，用于激活/召回/个性化推送
 
-该项目会基于客户画像和用户类型（Segmentation）自动为每一位用户生成高性能个性化邮件文案，训练方案使用 LoRA（Low-Rank Adaptation） 对 Qwen3-8B 分类微调，模型推理支持注入强化 prompt+内联适配体，构建更加针对性的文案建议。
+该项目会基于客户画像和用户类型（Segmentation）自动为每一位用户生成高性能个性化邮件及内容推送文案，训练方案使用 LoRA（Low-Rank Adaptation） 对 Qwen3-8B 分类微调，模型推理支持注入强化 prompt+内联适配体，构建更加针对性的文案建议。
 
 ---
 
